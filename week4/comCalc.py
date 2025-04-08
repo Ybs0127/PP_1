@@ -13,11 +13,9 @@ elif n == 2:
 
 
     if num1>num2:
-        a=num2
-        b=num1
+        a,b=num2, num1
     elif num1<num2:
-        a=num1
-        b=num2
+        a, b=num1, num2
 
     n = (b-a+1)
     s = (n*(a+b))//2
